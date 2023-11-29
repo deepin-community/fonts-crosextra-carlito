@@ -1,9 +1,39 @@
-fonts-crosextra-carlito (20130920-1.1) unstable; urgency=medium
+fonts-crosextra-carlito (20230309-2) unstable; urgency=medium
 
-  * Non maintainer upload by the Reproducible Builds team.
-  * No source change upload to rebuild on buildd with .buildinfo files.
+  * Use debian/watch file to track upstream commits as
+    pseudo-releases
 
- -- Holger Levsen <holger@debian.org>  Mon, 21 Dec 2020 16:34:07 +0100
+ -- Fabian Greffrath <fabian@debian.org>  Thu, 06 Jul 2023 11:52:09 +0200
+
+fonts-crosextra-carlito (20230309-1) unstable; urgency=medium
+
+  * New upstream version 20230309.
+  * Bump Standards-Version to 4.6.2.
+
+ -- Fabian Greffrath <fabian@debian.org>  Tue, 13 Jun 2023 15:11:58 +0200
+
+fonts-crosextra-carlito (20220224-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Drop fields with obsolete URLs.
+  * Bump debhelper from deprecated 9 to 13.
+  * Set debhelper-compat version in Build-Depends.
+
+  [ Fabian Greffrath ]
+  * Update Homepage to the new upstream location (Closes: #1028458).
+  * Update Uploaders field and packaging copyright to use my Debian address.
+  * Bump Standards-Version to 4.6.1.
+  * Update Vcs-* fields.
+  * Update Homepage field and URL in copyright comment.
+  * Do not package fontconfig rules anymore, recent fontconfig releases already
+    handle this font by upstream rules. Remove fontconfig rules on upgrade.
+  * Do not apply extreme compression in override_dh_builddeb anymore.
+  * Rules-Requires-Root: no.
+  * Run "wrap-and-sort -bast".
+  * New upstream version 20220224.
+
+ -- Fabian Greffrath <fabian@debian.org>  Fri, 13 Jan 2023 13:00:08 +0100
 
 fonts-crosextra-carlito (20130920-1) unstable; urgency=low
 

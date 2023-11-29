@@ -1,2 +1,4 @@
-version=3
-http://gsdview.appspot.com/chromeos-localmirror/distfiles/crosextrafonts-carlito-([0-9]*)\.tar\.gz
+version=4
+opts="pagemangle=s|<updated>|<a href=\"https://|g;s|</updated>|\"</a>|g,uversionmangle=s|[-]||g" \
+https://github.com/googlefonts/carlito/commits/main.atom \
+https://([-\d]*)(?:T[:\d]*Z)

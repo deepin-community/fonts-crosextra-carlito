@@ -3,21 +3,22 @@ Section: fonts
 Priority: optional
 Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
 Uploaders:
- Fabian Greffrath <fabian+debian@greffrath.com>
+ Fabian Greffrath <fabian@debian.org>,
 Build-Depends:
- debhelper (>= 9)
-Standards-Version: 3.9.4
-Homepage: http://code.google.com/p/chromium/issues/detail?id=280557
-Vcs-Git: git://anonscm.debian.org/pkg-fonts/fonts-crosextra-carlito.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-fonts/fonts-crosextra-carlito.git;a=summary
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/googlefonts/carlito
+Vcs-Git: https://salsa.debian.org/fonts-team/fonts-crosextra-carlito.git
+Vcs-Browser: https://salsa.debian.org/fonts-team/fonts-crosextra-carlito
+Rules-Requires-Root: no
 
 Package: fonts-crosextra-carlito
 Architecture: all
 Multi-Arch: foreign
 Depends:
- ${misc:Depends}
+ ${misc:Depends},
 Suggests:
- fonts-crosextra-caladea
+ fonts-crosextra-caladea,
 Description: Sans-serif font metric-compatible with Calibri font
  Carlito is metric-compatible with Calibri font. Carlito comes in regular, bold,
  italic, and bold italic. The family covers Latin-Greek-Cyrillic (not a
