@@ -1,2 +1,1 @@
-*.ttf usr/share/fonts/truetype/crosextra
-debian/conf.avail etc/fonts
+fonts/ttf/*.ttf usr/share/fonts/truetype/crosextra

@@ -1,6 +1,6 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: crosextrafonts-carlito
-Source: http://gsdview.appspot.com/chromeos-localmirror/distfiles/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Carlito fonts
+Source: https://github.com/googlefonts/carlito
 
 Files: *
 Copyright: 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name "Carlito".
@@ -102,7 +102,7 @@ License: OFL-1.1
  .
 
 Files: debian/*
-Copyright: 2014, Fabian Greffrath <fabian+debian@greffrath.com>
+Copyright: 2014-2023, Fabian Greffrath <fabian@debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
